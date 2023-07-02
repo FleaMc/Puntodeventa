@@ -1,0 +1,283 @@
+<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@drawable/fonh">
+
+
+        <Button
+            android:id="@+id/bthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/casa"
+            android:text="Menu" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:fontFamily="@font/let"
+            android:text="Agregar articulo"/>
+
+
+            <Button
+                android:id="@+id/bttnsc"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/cod"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Scanner">
+
+            </Button>
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/rad"
+            android:text="Codigo"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etcod"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Nombre del dispositivo"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etnom"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Modelo"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etmod"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Capacidad (Gb)"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etcap"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Precio"/>
+
+        <EditText
+            android:id="@+id/etpr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Color"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etcol"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Sistema operativo"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etsis"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:fontFamily="@font/rad"
+            android:textColor="@color/black"
+            android:text="Cantidad"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/etcan"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btbus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btnred"
+                android:drawableLeft="@drawable/buscar"
+                android:text="Buscar" />
+
+            <Button
+                android:id="@+id/btadd"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btnred"
+                android:drawableLeft="@drawable/agregar"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Agregar"
+                ></Button>
+            <Button
+                android:id="@+id/btelim"
+                android:background="@drawable/btnred"
+                android:text="Eliminar"
+                android:drawableLeft="@drawable/eliminar"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btact"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/btnred"
+
+                android:layout_width="130dp"
+                android:drawableLeft="@drawable/recargar"
+                android:layout_height="wrap_content"
+                android:text="Actualizar"
+                ></Button>
+            <Button
+                android:id="@+id/btclean"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/borrar"
+                android:background="@drawable/btnred"
+                android:text="Limpiar" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,85 @@
+<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fonh"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="320dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ios"/>
+    <TextView
+
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/let"
+        android:text="TecShop"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="290dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/rad"
+        android:textColor="@color/black"
+        android:text="Correo electronico"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/email"
+        android:background="@drawable/edittext_redondeado"
+        android:id="@+id/emailEditText"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rad"
+        android:text="Contraseña"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/bloqueado"
+        android:background="@drawable/edittext_redondeado"
+        android:id="@+id/pass"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/log"
+        android:background="@drawable/btnred"
+        android:text="Entrar"
+        android:drawableRight="@drawable/log"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

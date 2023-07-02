@@ -1,0 +1,150 @@
+<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fonh"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/bthome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnred"
+        android:drawableLeft="@drawable/casa"
+        android:text="Menu" />
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/let"
+        android:text="Registro de vendedores"/>
+
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="@font/rad"
+        android:textColor="@color/black"
+        android:text="Usuario"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_redondeado"
+        android:id="@+id/etus"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="@font/rad"
+        android:textColor="@color/black"
+        android:text="Contraseña"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_redondeado"
+        android:id="@+id/etpass"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="@font/rad"
+        android:textColor="@color/black"
+        android:text="Nombre"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_redondeado"
+        android:id="@+id/etnom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/busq"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/btadd"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/vendedor"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            ></Button>
+        <Button
+            android:id="@+id/btelim"
+            android:background="@drawable/btnred"
+            android:text="Eliminar"
+            android:drawableLeft="@drawable/us"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btact"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btnred"
+
+            android:layout_width="130dp"
+            android:drawableLeft="@drawable/recargar"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            ></Button>
+        <Button
+            android:id="@+id/btclean"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/borrar"
+            android:background="@drawable/btnred"
+            android:text="Limpiar" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

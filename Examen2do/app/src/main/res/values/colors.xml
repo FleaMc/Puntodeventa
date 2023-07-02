@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_black">#80000000</color>
+    <color name="transp">#BFC9CA</color>
+    <color name="transp2">#F3F5F7</color>
+    <color name="gris">#E5E7E9 </color>
+    <color name="background_dark" />
+    <color name="background_light" />
+    <color name="darker_gray" />
+    <color name="holo_blue_bright" />
+    <color name="holo_blue_dark" />
+    <color name="holo_blue_light" />
+    <color name="holo_green_dark" />
+    <color name="holo_green_light" />
+    <color name="primary_text_dark" />
+    <color name="transparent" />
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Examen2do</string>
+
+    <string-array name="lenguajes">
+        <item>Tipo de usuario</item>
+        <item>admin</item>
+        <item>vendedor</item>
+    </string-array>
+
+</resources>
+

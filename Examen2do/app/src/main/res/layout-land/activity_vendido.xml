@@ -1,0 +1,128 @@
+<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    android:background="@drawable/fonh"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rock"
+            android:text="Ventas por">
+        </TextView>
+        <TextView android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="10dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rock"
+            android:text="Michael Cabrera ">
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+
+        <TextView
+            android:layout_marginLeft="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bill"
+            ></TextView>
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/emailEditText2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rad"
+            android:hint="Id_Venta"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/emailEditText3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rad"
+            android:hint="Articulos vendidos"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/emailEditText4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rad"
+            android:hint="Fecha de venta"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_redondeado"
+            android:id="@+id/emailEditText5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rad"
+            android:hint="Monto total de la venta"
+            android:inputType="textEmailAddress"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btbus"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/buscar"
+            android:text="Buscar" />
+
+        <Button
+            android:id="@+id/btadd"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/agregar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            ></Button>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

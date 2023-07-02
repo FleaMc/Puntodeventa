@@ -1,0 +1,91 @@
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    android:background="@color/gris" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:fontFamily="@font/rock"
+            android:text="Bienvenido">
+        </TextView>
+        <TextView android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rock"
+            android:text="Michael Cabrera ">
+        </TextView>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/vender"
+            android:background="@drawable/redond"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/pay"
+            android:fontFamily="@font/rock"
+            android:text="Vender articulos"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/use"
+            android:background="@drawable/redond"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/use"
+            android:fontFamily="@font/rock"
+            android:text="Añadir usuario"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/addpr"
+            android:background="@drawable/redond"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/features"
+            android:fontFamily="@font/rock"
+            android:text="Agregar articulos"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/sales"
+            android:background="@drawable/redond"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:drawableTop="@drawable/misv"
+            android:fontFamily="@font/rock"
+            android:text="Mis ventas"
+            android:textColor="@color/black"></TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

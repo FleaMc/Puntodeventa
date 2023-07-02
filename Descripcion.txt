@@ -1,0 +1,13 @@
+Usuario para entrar
+
+usuario:maic
+contraseña:12345
+
+Esta aplicacion movil se realizo con php, es la administracion de una tienda
+
+Se pueden agregar productos, editarlos, borrarlos y buscarlos
+
+Existen administradores y usuarios normales que se pueden agregar en la administracion de usuarios
+
+Y hay un apartado de ventas en el que te genera un ticket al momento de dar a comprar una vez
+que se agregan los articulos deseados
